@@ -833,22 +833,21 @@ h4 {
     margin-bottom: 20px;
 }
 
+.two{
+    width: 50%;
+}
+
 blockquote{
     border: none;
-    margin: 0;
-    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
     width: 83%;
 }
 
 .quote{
     font-size: 20px;
     font-style: italic;
-}
-
-figcaption{
-    display: flex;
-    justify-content: center;
-    margin-right: 110px;
 }
 
 @media (max-width: 1024px) {
