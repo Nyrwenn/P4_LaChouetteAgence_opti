@@ -826,6 +826,31 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.description{
+    font-size: 24px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+blockquote{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 83%;
+}
+
+.quote{
+    font-size: 20px;
+    font-style: italic;
+}
+
+figcaption{
+    display: flex;
+    justify-content: center;
+    margin-right: 110px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
