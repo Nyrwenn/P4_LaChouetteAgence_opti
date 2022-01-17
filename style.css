@@ -366,11 +366,13 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
         right: 20px;
+        top: 50%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -503,6 +505,7 @@ nav .caret {
 }
 
 .form-control {
+    max-width: 90%;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
     margin-bottom: 10px;
@@ -741,6 +744,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .portfolio-row {
@@ -857,6 +862,7 @@ figcaption{
 .large_clic{
     display: block;
     max-width: 70%;
+    padding: 2px;
 }
 
 @media (max-width: 1024px) {
