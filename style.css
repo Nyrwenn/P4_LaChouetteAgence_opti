@@ -854,6 +854,11 @@ figcaption{
     color:#2F302F;
 }
 
+.large_clic{
+    display: block;
+    max-width: 70%;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
