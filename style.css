@@ -135,6 +135,7 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+    margin-bottom: 10px;
 }
 
 .d-bloc .a-btn:hover,
@@ -866,7 +867,7 @@ figcaption{
 .large_clic{
     display: block;
     max-width: 70%;
-    padding: 2px;
+    padding: 5px;
 }
 
 @media (max-width: 1024px) {
