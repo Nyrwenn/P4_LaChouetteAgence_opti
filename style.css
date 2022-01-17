@@ -684,7 +684,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .h1 {
@@ -703,7 +703,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 30px auto;
 }
 
 h2 {
@@ -780,7 +780,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #000000!important;
     position: relative;
 }
 
