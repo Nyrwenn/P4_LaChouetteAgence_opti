@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /page2.html
+Sitemap: https://nyrwenn.github.io/P4_LaChouetteAgence_opti/sitemap.xml
