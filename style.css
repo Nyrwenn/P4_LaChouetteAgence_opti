@@ -40,6 +40,11 @@ a:hover {
     position: relative;
 }
 
+.center-block{
+    width: 100px;
+    height: auto;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -301,12 +306,16 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    width: 80%;
 }
 
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 70%;
+    height: auto;
+  
 }
 
 .navbar-brand img[src$=svg] {
@@ -747,7 +756,9 @@ h4 {
     margin-bottom: 24px;
     margin-right: auto;
     margin-left: auto;
-}
+    aspect-ratio: attr(width) / attr(height);
+} 
+
 
 .portfolio-row {
     margin-bottom: 44px;
@@ -1007,8 +1018,8 @@ figcaption{
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
-        width: auto;
+        aspect-ratio: attr(width) / attr(height);
+
     }
     .nav-invert .navbar-header {
         float: none;
