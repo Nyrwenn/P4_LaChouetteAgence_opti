@@ -780,6 +780,7 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
+    max-width: 90%;
 }
 
 .bgc-dark-slate-blue {
